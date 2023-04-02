@@ -1,0 +1,99 @@
+.icon {
+	display: inline-block;
+	margin: 2px;
+	height: 16px;
+	width: 16px;
+	background-color: #ccc;
+}
+
+/* ICONS */
+.icon-BandaraUmumBukanPusatPenyebaran {
+	background: url('Simbol/BandaraUmumBukanPusatPenyebaran.png') center center no-repeat;
+}
+.icon-BandaraUmumPusatPenyebaranPrimer {
+	background: url('Simbol/BandaraUmumPusatPenyebaranPrimer.png') center center no-repeat;
+}
+.icon-BandaraUmumPusatPenyebaranSekunder {
+	background: url('Simbol/BandaraUmumPusatPenyebaranSekunder.png') center center no-repeat;
+}
+.icon-BandaraUmumPusatPenyebaranTersier {
+	background: url('Simbol/BandaraUmumPusatPenyebaranTersier.png') center center no-repeat;
+}
+.icon-BandarUdaraKhusus {
+	background: url('Simbol/BandarUdaraKhusus.png') center center no-repeat;
+}
+.icon-PelabuhanInternasional {
+	background: url('Simbol/PelabuhanInternasional.png') center center no-repeat;
+}
+.icon-PelabuhanInternasionalHub {
+	background: url('Simbol/PelabuhanInternasionalHub.png') center center no-repeat;
+}
+.icon-PelabuhanKhusus {
+	background: url('Simbol/PelabuhanKhusus.png') center center no-repeat;
+}
+.icon-PelabuhanLainnya {
+	background: url('Simbol/PelabuhanLainnya.png') center center no-repeat;
+}
+.icon-PelabuhanLokal {
+	background: url('Simbol/PelabuhanLokal.png') center center no-repeat;
+}
+.icon-PelabuhanNasional {
+	background: url('Simbol/PelabuhanNasional.png') center center no-repeat;
+}
+.icon-pelabuhanPenyeberangandalamKab {
+	background: url('Simbol/pelabuhanPenyeberangandalamKab.png') center center no-repeat;
+}
+.icon-pelabuhanPenyeberanganKab {
+	background: url('Simbol/pelabuhanPenyeberanganKab.png') center center no-repeat;
+}
+.icon-pelabuhanPenyeberanganProv {
+	background: url('Simbol/pelabuhanPenyeberanganProv.png') center center no-repeat;
+}
+.icon-PelabuhanRegional {
+	background: url('Simbol/PelabuhanRegional.png') center center no-repeat;
+}
+.icon-RelKATunggalpadapermukaantanah {
+	background: url('Simbol/RelKATunggalpadapermukaantanah.png') center center no-repeat;
+}
+.icon-StasiunKAkecil {
+	background: url('Simbol/StasiunKAkecil.png') center center no-repeat;
+}
+.icon-terminalA {
+	background: url('Simbol/terminalA.png') center center no-repeat;
+}
+.icon-terminalB {
+	background: url('Simbol/terminalB.png') center center no-repeat;
+}
+.icon-terminalbarangkhusus {
+	background: url('Simbol/terminalbarangkhusus.png') center center no-repeat;
+}
+.icon-terminalbarangumum {
+	background: url('Simbol/terminalbarangumum.png') center center no-repeat;
+}
+.icon-terminalC {
+	background: url('Simbol/terminalC.png') center center no-repeat;
+}
+.icon-timbang {
+	background: url('Simbol/timbang.png') center center no-repeat;
+}
+.icon-Uji {
+	background: url('Simbol/Uji.png') center center no-repeat;
+}
+
+/* MARKERS */
+.leaflet-marker-icon {
+	padding: 2px;
+	text-align: center;
+}
+.marker-bar {
+	background: url('images/markers/bar.png') center center no-repeat;
+}
+.marker-fuel {
+	background: url('images/markers/fuel.png') center center no-repeat;
+}
+.marker-parking {
+	background: url('images/markers/parking.png') center center no-repeat;
+}
+.marker-drinking_water {
+	background: url('images/markers/drinking_water.png') center center no-repeat;
+}

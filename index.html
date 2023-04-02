@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>WEBGIS Dinas Perhubungan</title>
+  <link rel="icon" href="icon/dishub.png">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="dist/leaflet-panel-layers.src.css" />
+  <link rel="stylesheet" href="src/leaflet-panel-layers.css" />
+  <link rel="stylesheet" href="icons.css" />
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/overwrite.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+  <style>
+    /*Leaflet tree panel*/
+    .leaflet-panel-layers-item {
+      height: 25px;
+    }
+
+    span {
+      padding: 4px;
+    }
+
+    /*Legend specific*/
+    .legend {
+      padding: 6px 8px;
+      font: 14px/16px Arial, Helvetica, sans-serif;
+      background: white;
+      background: rgba(255,255,255,0.8);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+
+    .legend h4 {
+      text-align: center;
+      font-size: 12px;
+      margin: 2px 12px 8px;
+      color: rgb(0, 0, 0);
+    }
+
+    .legend span {
+      position: relative;
+      bottom: 3px;
+    }
+
+    i.resize{
+      width: 16px;
+      height: 16px;
+    }
+
+    i.resize{
+      width: 70%;
+      height: 70%;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 4px;
+      text-align: center;
+      color: white;
+    }
+    .easy-button-button span{
+      padding: 0px;
+    }
+
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <h1 class="navbar-brand"><a href="https://dishub.acehprov.go.id/"><img src="img/LOGO-2.png" width=130 height="40"></a></h1>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+    <div class="map" id="map"></div>
+  <!--/#slider-->
+  <!-- Leaflet JS -->
+
+  <script src="dist/leaflet-panel-layers.src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.js"></script>
+  <script src="src/leaflet-panel-layers.js"></script>
+  <!-- Load Esri Leaflet from CDN -->
+
+  <script src="https://unpkg.com/esri-leaflet@2.3.0/dist/esri-leaflet.js"
+    integrity="sha512-1tScwpjXwwnm6tTva0l0/ZgM3rYNbdyMj5q6RSQMbNX6EUMhYDE3pMRGZaT41zHEvLoWEK7qFEJmZDOoDMU7/Q=="
+    crossorigin=""></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- <script type="text/javascript" src="js/fliplightbox.min.js"></script> -->
+  <!-- <script src="js/functions.js"></script> -->
+  <script src="map.js"></script>
+  <script src="popup.js"></script>
+
+  <footer>
+    
+  </footer>
+</body>
+
+</html>
